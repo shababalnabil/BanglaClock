@@ -47,10 +47,13 @@ afterEvaluate {
         publications{
             release(MavenPublication){
                 from components.release
-                groupId = 'com.makeniqal'
-                artifactId = 'express_downloader'
+                groupId = 'com.nabil.banglaclock'
+                artifactId = 'banglaclock'
                 version= '1.0'
             }
+        }
+        repositories {
+            mavenLocal()
         }
     }
 }
