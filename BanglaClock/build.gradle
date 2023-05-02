@@ -4,6 +4,9 @@ plugins {
     id 'maven-publish'
 }
 
+group = 'com.github.shababalnabil'
+version = '1.0.7'
+
 android {
     namespace 'com.nabil.banglaclock'
     compileSdk 33
@@ -57,7 +60,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.shababalnabil'
                 artifactId = 'BanglaClock'
-                version= '1.0.6'
+                version= '1.0.7'
             }
         }
     }
